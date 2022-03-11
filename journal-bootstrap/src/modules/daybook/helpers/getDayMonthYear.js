@@ -16,3 +16,13 @@ const getDayMonthYear = ( dateString ) => {
 
 
 export default getDayMonthYear
+
+/*
+
+alternative without arrays: 
+
+day: date.getDate(),
+month: date.toLocaleString("default", { month: "long" }),
+yearDay: date.toLocaleString("default", { year: "numeric", weekday: "long" })
+
+*/
